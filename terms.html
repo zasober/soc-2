@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Spin</title>
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="shortcut icon" href="img/crown.png" type="image/x-icon">
+</head>
+<body>
+    <div class="pop_up">
+        <div class="pop_obf">
+           <div class="pop_block">
+               <img src="img/18.png" alt="">
+               <h1>Age Verification</h1>
+               <p>
+                   Are you 18 years of age or <br> older?
+               </p>
+               <button id="no" style="margin-bottom: 5px;">
+                   I am under 18
+               </button>
+               <button id="yes" style="box-shadow: 0px 4px 4px 0px #00000040 inset;background: #8CC000;">
+                   I am over 18
+               </button>
+           </div>
+        </div>
+       </div>
+    <div class="priv">
+        <div class="priv_blokc" style="background-image: none;">
+            <div class="priv_1">
+            <a href="privacy.html">Privacy Policy</a>
+            <hr>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+    </div>
+
+    <div class="privacy">
+        <div class="mini_privacy">
+            <h1>Terms & Conditions</h1>
+
+            <h2>Introduction</h2>
+            <p>Welcome to Lucky Spin. These Terms & Conditions govern your use of our website, infospinjoy.com(infospinjoy@.com). By accessing or using our site, you agree to comply with and be bound by these terms. If you do not agree to these terms, please do not use our website.</p>
+    
+            <h2>Use of the Website</h2>
+            <p>You agree to use our website for lawful purposes only. You must not use our site in any way that breaches any applicable local, national, or international law or regulation, or in any manner that is unlawful or fraudulent, or has any unlawful or fraudulent purpose or effect.</p>
+    
+            <h2>Intellectual Property Rights</h2>
+            <p>The content, layout, design, data, databases, and graphics on this website are protected by intellectual property laws and are owned by Lucky Spin or its licensors. You may not reproduce, distribute, or use any of the materials on this site without our prior written permission.</p>
+    
+            <h2>Limitation of Liability</h2>
+            <p>Lucky Spin will not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to, use of, or inability to use our website. This includes damages to, or viruses that may infect, your computer equipment or other property.</p>
+    
+            <h2>Disclaimer of Warranties</h2>
+            <p>Our website is provided "as is" without any representations or warranties, express or implied. Lucky Spin makes no representations or warranties in relation to the information and materials provided on this website.</p>
+    
+            <h2>Governing Law</h2>
+            <p>These Terms & Conditions are governed by and construed in accordance with the laws of the United Kingdom. You agree to submit to the exclusive jurisdiction of the courts of the United Kingdom to resolve any disputes arising out of or in connection with these terms or your use of the website.</p>
+    
+            <h2>Changes to These Terms</h2>
+            <p>We may revise these Terms & Conditions from time to time. The most current version will always be posted on our website. By continuing to access or use our site after any changes become effective, you agree to be bound by the revised terms.</p>
+    
+            <h2>Contact Us</h2>
+            <p>If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:infospinjoy@gmail.com">infospinjoy@gmail.com</a></p>
+        
+        </div>
+    </div>
+
+    <footer>
+        <div class="end">
+            <p>Play responsibly. Games can become addictive !</p>
+            <h5>infospinjoy@gmail.com </h5>
+            <img src="img/line.png" alt="">
+            <div class="end_cont">
+                <a href="privacy.html">Privacy Policy</a>
+                <hr>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+            $('#yes').on('click',function(){
+        $('.pop_up').css('display','none');
+    });
+    $('#no').on('click',function(){
+        $('body').css('display','none');
+    });
+    </script>   
+    </body>
+    </html>
